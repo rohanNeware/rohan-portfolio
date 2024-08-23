@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Rectangle -->
+  <rect width="64" height="64" fill="#000"/>
+
+  <!-- "R" Initial -->
+  <text x="10" y="45" font-family="Arial, sans-serif" font-size="36" fill="#fff" font-weight="bold">R</text>
+
+  <!-- "N" Initial -->
+  <text x="32" y="45" font-family="Arial, sans-serif" font-size="36" fill="#fff" font-weight="bold">N</text>
+</svg>

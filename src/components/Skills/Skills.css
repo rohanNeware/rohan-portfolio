@@ -1,0 +1,63 @@
+/* Skills.css */
+
+/* Custom animation for the skill card */
+@keyframes scaleUp {
+    from {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    to {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes textColorChange {
+    from {
+      color: gray;
+    }
+    to {
+      color: white;
+    }
+  }
+  
+  .animate-card {
+    animation: scaleUp 0.3s ease-in-out, textColorChange 0.3s ease-in-out;
+  }
+  
+  .hover\:bg-\#2a1454:hover {
+    background-color: #2a1454;
+  }
+  
+  .hover\:text-white:hover {
+    color: white;
+  }
+  
+  .transition-colors {
+    transition: color 0.3s ease;
+  }
+  
+  .transition-transform {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover\:scale-105:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover\:shadow-xl:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+  }
+  
+  /* Apply shake animation on hover */
+  .shake-on-hover:hover {
+    animation: shake 0.6s ease-in-out;
+  }

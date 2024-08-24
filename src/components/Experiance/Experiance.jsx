@@ -10,7 +10,7 @@ const experiences = [
   {
     company: 'Iosys Software',
     role: 'Trainee Front-End Developer',
-    period: 'Jan 2020 - June 2021',
+    period: 'Jan 2020 - June 2020',
     description: 'Developed and maintained user-friendly websites and APIs using Node.js and Express.',
   },
 ];

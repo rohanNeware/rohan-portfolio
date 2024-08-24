@@ -4,7 +4,7 @@ const Header = () => {
     const [isFixed, setIsFixed] = useState(false);
     const [activeSection, setActiveSection] = useState('About');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const sections = ['About', 'Resume','Projects', 'Contact', 'My-Skills'];
+    const sections = ['About', 'Resume','Projects', 'My-Skills','Contact'];
 
     useEffect(() => {
         const handleScroll = () => {

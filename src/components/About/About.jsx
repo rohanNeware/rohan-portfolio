@@ -18,7 +18,7 @@ const About = () => {
             >
                 <div className="order-2 md:order-1">
                     <p className="text-lg leading-relaxed">
-                        I am a passionate React.js Developer with experience in building dynamic web applications. My expertise includes working with modern JavaScript libraries and frameworks, designing intuitive user interfaces, and optimizing performance for the best user experience. I am dedicated to continuous learning and staying up-to-date with the latest technologies to deliver high-quality solutions.
+                        I am a passionate React.js Developer with experience of 3.5years in building dynamic web applications. My expertise includes working with modern JavaScript libraries and frameworks, designing intuitive user interfaces, and optimizing performance for the best user experience. I am dedicated to continuous learning and staying up-to-date with the latest technologies to deliver high-quality solutions.
                     </p>
                 </div>
                 <div className="order-1 md:order-2 flex justify-center">

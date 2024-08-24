@@ -20,7 +20,7 @@ const App = () => {
           <Projects />
           <section id="Resume" className="bg-[#f6f3fc] py-10">
           <div className="container mx-auto px-4 md:px-0">
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col md:flex-row">
           <Experience />
           <Education />
         </div>

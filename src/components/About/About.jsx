@@ -52,8 +52,6 @@ const About = () => {
     LinkedIn
   </a>
 </div>
-
-
         </section>
     );
 };

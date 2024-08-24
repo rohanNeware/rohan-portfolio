@@ -1,12 +1,16 @@
 import React from 'react';
-import './Skills.css'; 
+import './Skills.css';
+
 const skills = [
   { name: 'Next.js', level: '70%', color: 'bg-gray-800', icon: 'fas fa-caret-up' },
   { name: 'React.js', level: '85%', color: 'bg-blue-500', icon: 'fab fa-react' },
   { name: 'JavaScript', level: '90%', color: 'bg-yellow-500', icon: 'fab fa-js' },
   { name: 'Node.js', level: '75%', color: 'bg-green-500', icon: 'fab fa-node' },
   { name: 'CSS', level: '80%', color: 'bg-blue-300', icon: 'fab fa-css3-alt' },
-  { name: 'HTML', level: '90%', color: 'bg-red-500', icon: 'fab fa-html5' }
+  { name: 'HTML', level: '90%', color: 'bg-red-500', icon: 'fab fa-html5' },
+  { name: 'Tailwind', level: '90%', color: 'bg-teal-400', icon: 'fa-solid fa-wind' },
+  { name: 'Bootstrap', level: '90%', color: 'bg-purple-600', icon: 'fab fa-bootstrap' },
+  { name: 'Git', level: '90%', color: 'bg-gray', icon: 'fab fa-github' }
 ];
 
 const Skills = () => {
@@ -27,7 +31,7 @@ const Skills = () => {
             data-aos-delay="200"
             data-aos-duration="1200"
             className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center
-            transition-transform duration-300 transform hover:scale-105 hover:bg-[#2a1454] hover:text-white hover:shadow-xl shake-on-hover"
+            transition-transform duration-300 transform hover:scale-105 hover:bg-[#2a1454] hover:text-white hover:shadow-xl shake-on-hover mx-2 my-4"
           >
             <div className={`text-5xl mb-4 ${skill.color}`}>
               <i className={skill.icon}></i>
